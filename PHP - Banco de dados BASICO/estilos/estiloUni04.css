@@ -1,0 +1,149 @@
+html,body,main{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------- Estilo foooter ---------*/
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to right,blueviolet,darkblue);
+    text-align: left;
+}
+footer ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+.copyright{
+    text-align: center;
+    margin:10px;
+    color:white;
+    font-size:20px;
+}
+.social-container{
+    display:grid;
+}
+.social-item{
+    grid-column-start: 1;
+}
+.social-item img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.grid-container{
+    display:grid;
+    margin-bottom: 30px;
+}
+.grid-item1{
+    grid-column-start: 1;
+}
+.grid-item2{
+    grid-column-start: 2;
+}
+.grid-item3{
+    grid-column-start: 3;
+}
+
+/* -------- Estilo Header princial ---------*/
+
+header ul li{
+    list-style-type: none;
+    margin: 15px;
+    display:inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:25px
+}
+header img{
+    width:90px;
+    height:90px;
+}
+.container-nav{
+    display: grid;
+}
+.nav-item{
+    grid-column-start: 3;
+}
+.nav-item-logo{
+    grid-column-start:2;
+}
+
+@media (max-width: 720px) {
+
+    header ul li a{
+        font-size:20px
+    }
+}
+
+.barra-principal{
+    width:100%;
+    height:50px;
+    background: linear-gradient(to right,blueviolet,darkblue);
+    margin-bottom: 50px;
+}
+
+/* -------- Estilo menu lateral ---------*/
+
+.container-menu-lateral{
+    border-right: #cccccc 1px solid;
+    height:800px;
+    width:250px;
+}
+
+.container-menu-lateral ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+.container-menu-lateral ul li a{
+    text-decoration: none;
+    color:#484848;
+    font-size: 20px;
+}
+
+.container-principal{
+    margin:80px auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:70%;
+}
+
+.container-menu-l{
+    border: green 1px solid;
+    width: 250px;
+    height:500px;
+    position: absolute;
+
+}
+
+.container-prod{
+    padding: 5px;
+    width: 350px;
+    margin:20px;
+    font-size:18px;
+}
+
+.container-prod img{
+    width:300px;
+    height:300px;
+}
+
+
+.container-principal ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+.container-principal ul li{
+    text-decoration: none;
+    color:black;
+}
+
